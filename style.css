@@ -50,6 +50,11 @@ p {
 
 /* ---------- NAVIGACIJA ---------- */
 
+.burger-icon {
+    font-size: 25px;
+    display: none;
+}
+
 .navigacija {
     display: flex;
     justify-content: space-between;
@@ -328,6 +333,11 @@ nav a {
 
 /* ---------- GALERIJA ---------- */
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .filter-box {
     padding: 0 12px;
 }
@@ -444,7 +454,7 @@ nav a {
 .test-quote {
     height: 45px;
     position: absolute;
-    left: 291px;
+    right: 0px;
     bottom: 0px;
 }
 
@@ -646,6 +656,11 @@ footer {
     margin-top: 50px;
 }
 
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .footer-section {
     display: flex;
     flex-direction: column;
@@ -707,4 +722,459 @@ footer {
 .footer-section ul li:hover::before {
     left: calc(10% - 10px);
     opacity: 1;
+}
+
+@media (max-width: 1155px) {
+    .hero-agency {
+        padding: 100px;
+
+        .row{
+            display: flex;
+            justify-content: center;
+        }
+    
+        .padding12 {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .padding12 h1 {
+            text-align: center;
+        }
+
+        .hero-p {
+            text-align: center;
+        }
+    
+        .padding12 img {
+            display: none;
+        }
+
+    }
+
+    .about {
+
+        .three-points {
+            padding: 0 10%;
+        }
+
+        .about-info {
+            text-align: center;
+        }
+
+        .img-about {
+            padding: 0;
+        }
+
+    }
+
+    .our-project {
+
+        .grid {
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .filter-box {
+            padding: 0 0 50px 50px;
+        }
+
+    }
+
+    .testimonial-box {
+
+
+        .three-boxes {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .test-box {
+            width: 100%;
+            display: grid;
+            place-items: center;
+
+        .test-h5 {
+            text-align: center;
+        }
+    }
+
+
+} 
+}
+
+
+@media (max-width: 1085px) {
+
+    .about .h5-text {
+        inline-size: 210px;
+        margin: 0 auto;
+        padding-bottom: 16px;
+    }
+
+    .team {
+        .team-img-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5%;
+            padding: 0 50px 50px 50px;
+        }
+    
+        .team-info {
+            text-align: center;
+        }
+    }
+
+    .newsletter{
+        .email-box-container {
+            width: 0;
+            left: 10%;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .newsletter{
+        .email-box-container {
+            width: 0;
+            left: 12px;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+
+    .container {
+        padding: 0 36px;
+    }
+
+    nav {
+
+        a {
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .right {
+            display: none;
+        }
+        
+        .burger-icon {
+            display: block;
+        }
+    }
+
+    .hero-agency{
+        padding: 20px 0;
+
+        .logo-list ul {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            place-items: center;
+        }
+
+        .grid-middle {
+            grid-column: 1 / span 4;
+        }
+    }
+}
+
+@media (max-width: 770px ) {
+    .newsletter-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    .subscribe-text {
+        width: 100%;
+        text-align: center;
+    }
+    .subscribe-text-h3{
+        margin-bottom: 5px;
+    }
+    .subscribe-text-p {
+        padding-bottom: 20px;
+    }
+    .email-box-container{
+        left: 0;
+    }
+    .email-box {
+        width: 100%;
+    }
+    .input-btn{
+        width: 100%;
+    }
+    .email-btn{
+        right: 3%;
+    }
+}
+}
+
+@media (max-width: 849px ) {
+    .newsletter-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    .subscribe-text {
+        width: 100%;
+        text-align: center;
+    }
+    .subscribe-text-h3{
+        margin-bottom: 5px;
+    }
+    .subscribe-text-p {
+        padding-bottom: 20px;
+    }
+    .email-box-container{
+        left: 0;
+    }
+    .email-box {
+        width: 100%;
+    }
+    .input-btn{
+        width: 100%;
+    }
+    .email-btn{
+        right: 3%;
+    }
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+
+    .footer-info{
+        display: grid;
+        place-items: start;
+        margin-bottom: 1.5rem;
+    }
+    .footer-img{
+        margin-bottom: 1rem;
+    }
+    .footer-grid{
+        display: grid;
+    }
+    .footer-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+}
+
+
+@media (max-width: 700px) {
+
+    .hero-agency {
+
+    .logo-list ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    }
+    .about {
+        .what-we-do h2 {
+            width: 80%;
+        }
+        .three-points{
+            display: grid;
+            grid-template-columns: 1fr;
+            place-items: center;
+        }
+    }
+    .our-project{
+        h2 {
+            width: 80%;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .filter-box{
+            padding: 0;
+        }
+    }
+    .testimonial-box{
+        .testimonial-p{
+            width: 80%;
+        }
+    }
+    .global-numbers{
+        .gn-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            place-items: center;
+            gap: 20px;
+        }
+    }
+    .team{
+        .team-p{
+            width: 80%;
+        }
+        .team-img-box{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    }
+    .newsletter-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        .subscribe-text {
+            width: 100%;
+            text-align: center;
+        }
+        .subscribe-text-h3{
+            margin-bottom: 5px;
+        }
+        .subscribe-text-p {
+            padding-bottom: 20px;
+        }
+        .email-box-container{
+            left: 0;
+        }
+        .email-box {
+            width: 100%;
+        }
+        .input-btn{
+            width: 100%;
+        }
+        .email-btn{
+            right: 3%;
+            padding: 7px;
+        }
+    }
+    .footer-div{
+        display: flex;
+        flex-direction: column;
+
+        .footer-info{
+            display: grid;
+            place-items: start;
+            margin-bottom: 1.5rem;
+        }
+        .footer-img{
+            margin-bottom: 1rem;
+        }
+        .footer-grid{
+            display: grid;
+        }
+        .footer-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+    }
+}
+
+
+
+@media (max-width: 550px) {
+
+    .hero-agency {
+        
+        .logo-list ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}
+    .about {
+        .three-points {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .our-project {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+        .filter-box {
+            padding: 0;
+        }
+    }
+
+    .global-numbers {
+        .gn-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .global-numbers-box {
+            padding: 20px 0;
+        }
+    }
+
+    .team {
+        .team-img-box{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+    }
+
+    .newsletter {
+        .newsletter-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .subscribe-text {
+            width: 100%;
+            text-align: center;
+        }
+        .subscribe-text-h3{
+            margin-bottom: 5px;
+        }
+        .subscribe-text-p {
+            padding-bottom: 20px;
+        }
+        .email-box-container{
+            left: 0;
+        }
+        .email-box {
+            width: 100%;
+        }
+        .input-btn{
+            width: 100%;
+        }
+        .email-btn{
+            padding: 7px;
+        }
+    }
+
+    .footer-div{
+        display: flex;
+        flex-direction: column;
+
+        .footer-info{
+            display: grid;
+            place-items: start;
+            margin-bottom: 1.5rem;
+        }
+        .footer-img{
+            margin-bottom: 1rem;
+        }
+        .footer-grid{
+            display: grid;
+        }
+        .footer-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+    }
+
+
 }
