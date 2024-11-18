@@ -1,5 +1,3 @@
 # Dojek projektas
 
-Pirmoji BIT kursu praktine uzduotis.
-
-Tik is HTML + CSS
+Tai yra mano pirmoji praktinė užduotis, atlikta dalyvaujant BIT kursuose. Šiame projekte buvo sukurtas statinis tinklalapis naudojant tik HTML ir CSS. Šio projekto tikslas – išmokti tinklalapių struktūros kūrimo pagrindus bei stilizavimo pagrindus.
