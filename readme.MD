@@ -2,9 +2,9 @@
 
 ---
 
-<p>
-  <strong><img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg" alt="LT Flag" width="30"> LT</strong>
-</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg" alt="LT Flag" width="30">
+
 
 **Tai yra mano pirmoji praktinė užduotis, atlikta dalyvaujant BIT kursuose.**  
 Šiame projekte buvo sukurtas statinis tinklalapis naudojant tik HTML ir CSS.  
@@ -17,9 +17,9 @@
 
 ---
 
-<p>
-  <strong><img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="EN Flag" width="30"> EN</strong>
-</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="EN Flag" width="30">
+
 
 **This is my first practical assignment completed as part of the BIT courses.**  
 In this project, a static webpage was created using only HTML and CSS.  
