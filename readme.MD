@@ -2,7 +2,7 @@
 
 ---
 
-<p align="center">
+<p>
   <strong><img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg" alt="LT Flag" width="30"> LT</strong>
 </p>
 
@@ -17,7 +17,7 @@
 
 ---
 
-<p align="center">
+<p>
   <strong><img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="EN Flag" width="30"> EN</strong>
 </p>
 
